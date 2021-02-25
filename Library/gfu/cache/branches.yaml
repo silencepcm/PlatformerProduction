@@ -13,11 +13,31 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 2
-  lastUpdatedAtString: 2021-02-24T15:44:12.433+03:00
-  initializedAtString: 2021-02-24T15:20:40.037+03:00
-  localBranches: []
+  lastUpdatedAtString: 2021-02-25T17:22:02.823+03:00
+  initializedAtString: 2021-02-25T17:22:02.809+03:00
+  localBranches:
+  - name: CameraModify
+    tracking: 
+  - name: Grid
+    tracking: 
+  - name: main
+    tracking: origin/main
+  - name: master
+    tracking: origin/master
+  - name: Structure
+    tracking: upstream/Structure
+  - name: feature/physics
+    tracking: origin/feature/physics
   remoteBranches:
   - name: origin/main
+    tracking: '[None]'
+  - name: origin/master
+    tracking: '[None]'
+  - name: origin/feature/physics
+    tracking: '[None]'
+  - name: upstream/main
+    tracking: '[None]'
+  - name: upstream/Structure
     tracking: '[None]'
   remotes:
   - name: origin
@@ -35,20 +55,83 @@ MonoBehaviour:
     function: 0
     token: 
   localConfigBranches:
-    keys: []
-    values: []
+    keys:
+    - CameraModify
+    - Grid
+    - main
+    - master
+    - Structure
+    - feature/physics
+    values:
+    - name: CameraModify
+      remote:
+        name: 
+        url: 
+      trackingBranch: 
+    - name: Grid
+      remote:
+        name: 
+        url: 
+      trackingBranch: 
+    - name: main
+      remote:
+        name: origin
+        url: https://github.com/silencepcm/PlatformerProduction.git
+      trackingBranch: main
+    - name: master
+      remote:
+        name: origin
+        url: https://github.com/silencepcm/PlatformerProduction.git
+      trackingBranch: master
+    - name: Structure
+      remote:
+        name: upstream
+        url: https://github.com/SethDrakor/PlatformerProduction.git
+      trackingBranch: Structure
+    - name: feature/physics
+      remote:
+        name: origin
+        url: https://github.com/silencepcm/PlatformerProduction.git
+      trackingBranch: feature/physics
   remoteConfigBranches:
     keys:
     - origin
+    - upstream
     subKeys:
     - Values:
       - main
+      - master
+      - feature/physics
+    - Values:
+      - main
+      - Structure
     subKeyValues:
     - Values:
       - name: main
         remote:
           name: origin
           url: https://github.com/silencepcm/PlatformerProduction.git
+        trackingBranch: 
+      - name: master
+        remote:
+          name: origin
+          url: https://github.com/silencepcm/PlatformerProduction.git
+        trackingBranch: 
+      - name: feature/physics
+        remote:
+          name: origin
+          url: https://github.com/silencepcm/PlatformerProduction.git
+        trackingBranch: 
+    - Values:
+      - name: main
+        remote:
+          name: upstream
+          url: https://github.com/SethDrakor/PlatformerProduction.git
+        trackingBranch: 
+      - name: Structure
+        remote:
+          name: upstream
+          url: https://github.com/SethDrakor/PlatformerProduction.git
         trackingBranch: 
   configRemotes:
     keys:
