@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 1
-  lastUpdatedAtString: 2021-02-25T17:22:02.857+03:00
-  initializedAtString: 2021-02-25T12:07:45.859+03:00
+  lastUpdatedAtString: 2021-02-25T18:37:42.359+03:00
+  initializedAtString: 2021-02-25T18:37:42.359+03:00
   currentGitRemote:
     name: origin
     url: https://github.com/silencepcm/PlatformerProduction.git
@@ -24,14 +24,14 @@ MonoBehaviour:
     function: 0
     token: 
   currentGitBranch:
-    name: Grid
-    tracking: 
+    name: master
+    tracking: origin/master
   currentConfigBranch:
-    name: Grid
+    name: master
     remote:
-      name: 
-      url: 
-    trackingBranch: 
+      name: origin
+      url: https://github.com/silencepcm/PlatformerProduction.git
+    trackingBranch: master
   currentConfigRemote:
     name: origin
     url: https://github.com/silencepcm/PlatformerProduction.git

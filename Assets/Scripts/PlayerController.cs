@@ -1,81 +1,66 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.Events;
+
 
 public class PlayerController : MonoBehaviour
 {
-    [SerializeField] private float m_JumpForce = 400f;                          // Amount of force added when the player jumps.
-    [Range(0, .3f)] [SerializeField] private float m_MovementSmoothing = .05f;  // How much to smooth out the movement
-    [SerializeField] private LayerMask m_WhatIsGround;                          // A mask determining what is ground to the character
-    [SerializeField] private Transform m_GroundCheck;                           // A position marking where to check if the player is grounded.
-
-    const float k_GroundedRadius = .2f; // Radius of the overlap circle to determine if grounded
-    private bool m_Grounded;            // Whether or not the player is grounded.
-    private Rigidbody2D m_Rigidbody2D;
-    private bool m_FacingRight = true;  // For determining which way the player is currently facing.
-    private Vector3 m_Velocity = Vector3.zero;
-
-    private void Awake()
+    [SerializeField] private LayerMask platformsLM;
+    private SpriteRenderer sr;
+    private Rigidbody2D rb2d;
+    private BoxCollider2D bc2D;
+    public GameObject thePrefab;
+    public Animator animator;
+    // Start is called before the first frame update
+    void Start()
     {
-        m_Rigidbody2D = GetComponent<Rigidbody2D>();
+        sr = GetComponent<SpriteRenderer>();
+        rb2d = GetComponent<Rigidbody2D>();
+        bc2D = GetComponent<BoxCollider2D>();
     }
 
-    private void FixedUpdate()
+    public Vector2 speed = new Vector2(10, 10);
+    float runSpeed = 20;
+    // Update is called once per frame
+    private void Update()
     {
-        m_Grounded = false;
-
-        // The player is grounded if a circlecast to the groundcheck position hits anything designated as ground
-        // This can be done using layers instead but Sample Assets will not overwrite your project settings.
-        Collider2D[] colliders = Physics2D.OverlapCircleAll(m_GroundCheck.position, k_GroundedRadius, m_WhatIsGround);
-        for (int i = 0; i < colliders.Length; i++)
+        if (Input.GetMouseButtonDown(0))
         {
-            if (colliders[i].gameObject != gameObject)
-            {
-                m_Grounded = true;
-            }
+            var pos = transform.position;
+            pos.x += 1f;
+            var instance = Instantiate(thePrefab, pos, transform.rotation);
         }
+        if (IsGrounded() && (Input.GetKeyDown(KeyCode.Space)))
+        {
+            float jumpVelocity = 15f;
+            rb2d.velocity = Vector2.up * jumpVelocity;
+        }
+        HandleMouvement();
     }
-
-    public void Move(float move, bool jump)
+    private bool IsGrounded()
     {
-
-        // Move the character by finding the target velocity
-        Vector3 targetVelocity = new Vector2(move * 10f, m_Rigidbody2D.velocity.y);
-        // And then smoothing it out and applying it to the character
-        m_Rigidbody2D.velocity = Vector3.SmoothDamp(m_Rigidbody2D.velocity, targetVelocity, ref m_Velocity, m_MovementSmoothing);
-
-        // If the input is moving the player right and the player is facing left...
-        if (move > 0 && !m_FacingRight)
-        {
-            // ... flip the player.
-            Flip();
-        }
-        // Otherwise if the input is moving the player left and the player is facing right...
-        else if (move < 0 && m_FacingRight)
-        {
-            // ... flip the player.
-            Flip();
-        }
-
-        // If the player should jump...
-        if (m_Grounded && jump)
-        {
-            // Add a vertical force to the player.
-            m_Grounded = false;
-            m_Rigidbody2D.AddForce(new Vector2(0f, m_JumpForce));
-        }
+        RaycastHit2D rch2D = Physics2D.BoxCast(bc2D.bounds.center, bc2D.bounds.size, 0f, Vector2.down, 1 / 10f, platformsLM);
+        Debug.Log(rch2D.collider);
+        return rch2D.collider != null;
     }
-
-
-    private void Flip()
+    private void HandleMouvement()
     {
-        // Switch the way the player is labelled as facing.
-        m_FacingRight = !m_FacingRight;
 
-        // Multiply the player's x local scale by -1.
-        Vector3 theScale = transform.localScale;
-        theScale.x *= -1;
-        transform.localScale = theScale;
+        if (Input.GetKey(KeyCode.A))
+        {
+            rb2d.velocity = new Vector2(-runSpeed, rb2d.velocity.y);
+            animator.SetFloat("PlayerSpeed", runSpeed);
+        }
+        else
+        if (Input.GetKey(KeyCode.D))
+        {
+            rb2d.velocity = new Vector2(+runSpeed, rb2d.velocity.y);
+            animator.SetFloat("PlayerSpeed", runSpeed);
+        }
+        else
+        {
+            rb2d.velocity = new Vector2(0, rb2d.velocity.y);
+            animator.SetFloat("PlayerSpeed", 0);
+        }
     }
 }
