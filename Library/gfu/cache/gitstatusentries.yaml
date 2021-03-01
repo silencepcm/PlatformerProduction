@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 6
-  lastUpdatedAtString: 2021-02-25T18:38:43.911+03:00
-  initializedAtString: 2021-02-25T18:37:42.726+03:00
+  lastUpdatedAtString: 2021-03-01T05:21:27.828+03:00
+  initializedAtString: 2021-03-01T04:38:32.799+03:00
   entries:
   - path: .vs\PlatformerProduction-main\v16\.suo
     fullPath: D:\E-ARTSUP\C#\Unity\PlatformerProduction-main\.vs\PlatformerProduction-main\v16\.suo
@@ -22,9 +22,123 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
+  - path: .vs\PlatformerProduction-main\v16\suoBF7E.tmp
+    fullPath: D:\E-ARTSUP\C#\Unity\PlatformerProduction-main\.vs\PlatformerProduction-main\v16\suoBF7E.tmp
+    projectPath: .vs\PlatformerProduction-main\v16\suoBF7E.tmp
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assembly-CSharp.csproj
+    fullPath: D:\E-ARTSUP\C#\Unity\PlatformerProduction-main\Assembly-CSharp.csproj
+    projectPath: Assembly-CSharp.csproj
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Scenes\SampleScene.unity
+    fullPath: D:\E-ARTSUP\C#\Unity\PlatformerProduction-main\Assets\Scenes\SampleScene.unity
+    projectPath: Assets\Scenes\SampleScene.unity
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Scripts\CameraScript.cs
+    fullPath: D:\E-ARTSUP\C#\Unity\PlatformerProduction-main\Assets\Scripts\CameraScript.cs
+    projectPath: Assets\Scripts\CameraScript.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets\Scripts\CameraScript.cs.meta
+    fullPath: D:\E-ARTSUP\C#\Unity\PlatformerProduction-main\Assets\Scripts\CameraScript.cs.meta
+    projectPath: Assets\Scripts\CameraScript.cs.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets\Scripts\GridScipts.meta
+    fullPath: D:\E-ARTSUP\C#\Unity\PlatformerProduction-main\Assets\Scripts\GridScipts.meta
+    projectPath: Assets\Scripts\GridScipts.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Scripts\GridScipts\GridScript.cs
+    fullPath: D:\E-ARTSUP\C#\Unity\PlatformerProduction-main\Assets\Scripts\GridScipts\GridScript.cs
+    projectPath: Assets\Scripts\GridScipts\GridScript.cs
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Scripts\GridScipts\GridScript.cs.meta
+    fullPath: D:\E-ARTSUP\C#\Unity\PlatformerProduction-main\Assets\Scripts\GridScipts\GridScript.cs.meta
+    projectPath: Assets\Scripts\GridScipts\GridScript.cs.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Scripts\PersonnagesScripts.meta
+    fullPath: D:\E-ARTSUP\C#\Unity\PlatformerProduction-main\Assets\Scripts\PersonnagesScripts.meta
+    projectPath: Assets\Scripts\PersonnagesScripts.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Scripts\PersonnagesScripts\EnemiesScripts.meta
+    fullPath: D:\E-ARTSUP\C#\Unity\PlatformerProduction-main\Assets\Scripts\PersonnagesScripts\EnemiesScripts.meta
+    projectPath: Assets\Scripts\PersonnagesScripts\EnemiesScripts.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Scripts\PersonnagesScripts\PlayerScripts.meta
+    fullPath: D:\E-ARTSUP\C#\Unity\PlatformerProduction-main\Assets\Scripts\PersonnagesScripts\PlayerScripts.meta
+    projectPath: Assets\Scripts\PersonnagesScripts\PlayerScripts.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Scripts\PersonnagesScripts\PlayerScripts\CameraScript.cs
+    fullPath: D:\E-ARTSUP\C#\Unity\PlatformerProduction-main\Assets\Scripts\PersonnagesScripts\PlayerScripts\CameraScript.cs
+    projectPath: Assets\Scripts\PersonnagesScripts\PlayerScripts\CameraScript.cs
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Scripts\PersonnagesScripts\PlayerScripts\CameraScript.cs.meta
+    fullPath: D:\E-ARTSUP\C#\Unity\PlatformerProduction-main\Assets\Scripts\PersonnagesScripts\PlayerScripts\CameraScript.cs.meta
+    projectPath: Assets\Scripts\PersonnagesScripts\PlayerScripts\CameraScript.cs.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Scripts\PersonnagesScripts\PlayerScripts\HealthScript.cs
+    fullPath: D:\E-ARTSUP\C#\Unity\PlatformerProduction-main\Assets\Scripts\PersonnagesScripts\PlayerScripts\HealthScript.cs
+    projectPath: Assets\Scripts\PersonnagesScripts\PlayerScripts\HealthScript.cs
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Scripts\PersonnagesScripts\PlayerScripts\HealthScript.cs.meta
+    fullPath: D:\E-ARTSUP\C#\Unity\PlatformerProduction-main\Assets\Scripts\PersonnagesScripts\PlayerScripts\HealthScript.cs.meta
+    projectPath: Assets\Scripts\PersonnagesScripts\PlayerScripts\HealthScript.cs.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Scripts\PersonnagesScripts\PlayerScripts\PlayerController.cs
+    fullPath: D:\E-ARTSUP\C#\Unity\PlatformerProduction-main\Assets\Scripts\PersonnagesScripts\PlayerScripts\PlayerController.cs
+    projectPath: Assets\Scripts\PersonnagesScripts\PlayerScripts\PlayerController.cs
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Scripts\PersonnagesScripts\PlayerScripts\PlayerController.cs.meta
+    fullPath: D:\E-ARTSUP\C#\Unity\PlatformerProduction-main\Assets\Scripts\PersonnagesScripts\PlayerScripts\PlayerController.cs.meta
+    projectPath: Assets\Scripts\PersonnagesScripts\PlayerScripts\PlayerController.cs.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
   - path: Assets\Scripts\PlayerController.cs
     fullPath: D:\E-ARTSUP\C#\Unity\PlatformerProduction-main\Assets\Scripts\PlayerController.cs
     projectPath: Assets\Scripts\PlayerController.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets\Scripts\PlayerController.cs.meta
+    fullPath: D:\E-ARTSUP\C#\Unity\PlatformerProduction-main\Assets\Scripts\PlayerController.cs.meta
+    projectPath: Assets\Scripts\PlayerController.cs.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets\Tilemap\Ground.prefab
+    fullPath: D:\E-ARTSUP\C#\Unity\PlatformerProduction-main\Assets\Tilemap\Ground.prefab
+    projectPath: Assets\Tilemap\Ground.prefab
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -34,15 +148,201 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
+  - path: Library\Artifacts\01\014db3eb5fb20d24af0929be4dc12fa9
+    fullPath: D:\E-ARTSUP\C#\Unity\PlatformerProduction-main\Library\Artifacts\01\014db3eb5fb20d24af0929be4dc12fa9
+    projectPath: Library\Artifacts\01\014db3eb5fb20d24af0929be4dc12fa9
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\05\05b5e85595fa9cdb8751244a32e0f79d
+    fullPath: D:\E-ARTSUP\C#\Unity\PlatformerProduction-main\Library\Artifacts\05\05b5e85595fa9cdb8751244a32e0f79d
+    projectPath: Library\Artifacts\05\05b5e85595fa9cdb8751244a32e0f79d
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\0a\0a3d88507c467795f506a9af19f98ab8
+    fullPath: D:\E-ARTSUP\C#\Unity\PlatformerProduction-main\Library\Artifacts\0a\0a3d88507c467795f506a9af19f98ab8
+    projectPath: Library\Artifacts\0a\0a3d88507c467795f506a9af19f98ab8
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\13\139e4dd7a11c58f1cc09809f2ba3ad0d
+    fullPath: D:\E-ARTSUP\C#\Unity\PlatformerProduction-main\Library\Artifacts\13\139e4dd7a11c58f1cc09809f2ba3ad0d
+    projectPath: Library\Artifacts\13\139e4dd7a11c58f1cc09809f2ba3ad0d
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\15\150407e328b6184d5977f191ca5a2ba6
+    fullPath: D:\E-ARTSUP\C#\Unity\PlatformerProduction-main\Library\Artifacts\15\150407e328b6184d5977f191ca5a2ba6
+    projectPath: Library\Artifacts\15\150407e328b6184d5977f191ca5a2ba6
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\28\28d1cdcfdd9733ab8c4ef6c10c88c3fb
+    fullPath: D:\E-ARTSUP\C#\Unity\PlatformerProduction-main\Library\Artifacts\28\28d1cdcfdd9733ab8c4ef6c10c88c3fb
+    projectPath: Library\Artifacts\28\28d1cdcfdd9733ab8c4ef6c10c88c3fb
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\2c\2cc25beb41b73f084cf21c8dd5f4f6a9
+    fullPath: D:\E-ARTSUP\C#\Unity\PlatformerProduction-main\Library\Artifacts\2c\2cc25beb41b73f084cf21c8dd5f4f6a9
+    projectPath: Library\Artifacts\2c\2cc25beb41b73f084cf21c8dd5f4f6a9
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\34\34f374e983c192b6ea8f40120b961713
+    fullPath: D:\E-ARTSUP\C#\Unity\PlatformerProduction-main\Library\Artifacts\34\34f374e983c192b6ea8f40120b961713
+    projectPath: Library\Artifacts\34\34f374e983c192b6ea8f40120b961713
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\35\35a88634b848f21bf63938f93192de55
+    fullPath: D:\E-ARTSUP\C#\Unity\PlatformerProduction-main\Library\Artifacts\35\35a88634b848f21bf63938f93192de55
+    projectPath: Library\Artifacts\35\35a88634b848f21bf63938f93192de55
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\38\38e40bd7adfd5a1a2e6bd6a693fe4879
+    fullPath: D:\E-ARTSUP\C#\Unity\PlatformerProduction-main\Library\Artifacts\38\38e40bd7adfd5a1a2e6bd6a693fe4879
+    projectPath: Library\Artifacts\38\38e40bd7adfd5a1a2e6bd6a693fe4879
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\39\3943d15ce2f42768d8031ab5b2cc3fc5
+    fullPath: D:\E-ARTSUP\C#\Unity\PlatformerProduction-main\Library\Artifacts\39\3943d15ce2f42768d8031ab5b2cc3fc5
+    projectPath: Library\Artifacts\39\3943d15ce2f42768d8031ab5b2cc3fc5
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\50\5085c2981dea20b86654f6d3a9736ff4
+    fullPath: D:\E-ARTSUP\C#\Unity\PlatformerProduction-main\Library\Artifacts\50\5085c2981dea20b86654f6d3a9736ff4
+    projectPath: Library\Artifacts\50\5085c2981dea20b86654f6d3a9736ff4
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\52\52676adf877378b191f99c86f0ceb404
+    fullPath: D:\E-ARTSUP\C#\Unity\PlatformerProduction-main\Library\Artifacts\52\52676adf877378b191f99c86f0ceb404
+    projectPath: Library\Artifacts\52\52676adf877378b191f99c86f0ceb404
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\54\54766dfdc3f3a74268b2425527e3e8bf
+    fullPath: D:\E-ARTSUP\C#\Unity\PlatformerProduction-main\Library\Artifacts\54\54766dfdc3f3a74268b2425527e3e8bf
+    projectPath: Library\Artifacts\54\54766dfdc3f3a74268b2425527e3e8bf
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\56\56c4c071908b403bc226f054db1d6d60
+    fullPath: D:\E-ARTSUP\C#\Unity\PlatformerProduction-main\Library\Artifacts\56\56c4c071908b403bc226f054db1d6d60
+    projectPath: Library\Artifacts\56\56c4c071908b403bc226f054db1d6d60
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\63\6397bb232c2638e33a4a9e6068b5f48e
+    fullPath: D:\E-ARTSUP\C#\Unity\PlatformerProduction-main\Library\Artifacts\63\6397bb232c2638e33a4a9e6068b5f48e
+    projectPath: Library\Artifacts\63\6397bb232c2638e33a4a9e6068b5f48e
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\79\79c2f795a9b2527f82a5a4a236742e3e
+    fullPath: D:\E-ARTSUP\C#\Unity\PlatformerProduction-main\Library\Artifacts\79\79c2f795a9b2527f82a5a4a236742e3e
+    projectPath: Library\Artifacts\79\79c2f795a9b2527f82a5a4a236742e3e
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\84\849df8d23b5b5412b40479b8fcbe1e69
+    fullPath: D:\E-ARTSUP\C#\Unity\PlatformerProduction-main\Library\Artifacts\84\849df8d23b5b5412b40479b8fcbe1e69
+    projectPath: Library\Artifacts\84\849df8d23b5b5412b40479b8fcbe1e69
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\8c\8cc5e4317d28c460101e5a87ded6ea54
+    fullPath: D:\E-ARTSUP\C#\Unity\PlatformerProduction-main\Library\Artifacts\8c\8cc5e4317d28c460101e5a87ded6ea54
+    projectPath: Library\Artifacts\8c\8cc5e4317d28c460101e5a87ded6ea54
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\ab\abdd47ed7fd093dd9a0e3428eac68eb5
+    fullPath: D:\E-ARTSUP\C#\Unity\PlatformerProduction-main\Library\Artifacts\ab\abdd47ed7fd093dd9a0e3428eac68eb5
+    projectPath: Library\Artifacts\ab\abdd47ed7fd093dd9a0e3428eac68eb5
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\ae\aec495688776dcef66d544a7a55a6b73
+    fullPath: D:\E-ARTSUP\C#\Unity\PlatformerProduction-main\Library\Artifacts\ae\aec495688776dcef66d544a7a55a6b73
+    projectPath: Library\Artifacts\ae\aec495688776dcef66d544a7a55a6b73
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\b0\b00c690746d9283090a198daf3b5c6c0
+    fullPath: D:\E-ARTSUP\C#\Unity\PlatformerProduction-main\Library\Artifacts\b0\b00c690746d9283090a198daf3b5c6c0
+    projectPath: Library\Artifacts\b0\b00c690746d9283090a198daf3b5c6c0
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\b8\b8310789ac9289974da01f8dc6abdd30
+    fullPath: D:\E-ARTSUP\C#\Unity\PlatformerProduction-main\Library\Artifacts\b8\b8310789ac9289974da01f8dc6abdd30
+    projectPath: Library\Artifacts\b8\b8310789ac9289974da01f8dc6abdd30
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\b8\b899444950637a735201c51768172fa9
+    fullPath: D:\E-ARTSUP\C#\Unity\PlatformerProduction-main\Library\Artifacts\b8\b899444950637a735201c51768172fa9
+    projectPath: Library\Artifacts\b8\b899444950637a735201c51768172fa9
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\c7\c7afa5dec02b0dc036e5e4b3bcc441ad
+    fullPath: D:\E-ARTSUP\C#\Unity\PlatformerProduction-main\Library\Artifacts\c7\c7afa5dec02b0dc036e5e4b3bcc441ad
+    projectPath: Library\Artifacts\c7\c7afa5dec02b0dc036e5e4b3bcc441ad
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
   - path: Library\Artifacts\c8\c859841c775e04fede6fc144408cf114
     fullPath: D:\E-ARTSUP\C#\Unity\PlatformerProduction-main\Library\Artifacts\c8\c859841c775e04fede6fc144408cf114
     projectPath: Library\Artifacts\c8\c859841c775e04fede6fc144408cf114
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\cb\cb02d685f7b55c1006579a326f9aacd7
+    fullPath: D:\E-ARTSUP\C#\Unity\PlatformerProduction-main\Library\Artifacts\cb\cb02d685f7b55c1006579a326f9aacd7
+    projectPath: Library\Artifacts\cb\cb02d685f7b55c1006579a326f9aacd7
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
   - path: Library\Artifacts\cc\cc071e154e2e472d9be39bf2913ba72c
     fullPath: D:\E-ARTSUP\C#\Unity\PlatformerProduction-main\Library\Artifacts\cc\cc071e154e2e472d9be39bf2913ba72c
     projectPath: Library\Artifacts\cc\cc071e154e2e472d9be39bf2913ba72c
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\d8\d834f63d72ac150ad7b95c612be59aa4
+    fullPath: D:\E-ARTSUP\C#\Unity\PlatformerProduction-main\Library\Artifacts\d8\d834f63d72ac150ad7b95c612be59aa4
+    projectPath: Library\Artifacts\d8\d834f63d72ac150ad7b95c612be59aa4
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\e1\e17aab83ee1a20d05dcc7ea2196cc6d3
+    fullPath: D:\E-ARTSUP\C#\Unity\PlatformerProduction-main\Library\Artifacts\e1\e17aab83ee1a20d05dcc7ea2196cc6d3
+    projectPath: Library\Artifacts\e1\e17aab83ee1a20d05dcc7ea2196cc6d3
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\f8\f82c5a0048c9afa599eba8b47d723b7e
+    fullPath: D:\E-ARTSUP\C#\Unity\PlatformerProduction-main\Library\Artifacts\f8\f82c5a0048c9afa599eba8b47d723b7e
+    projectPath: Library\Artifacts\f8\f82c5a0048c9afa599eba8b47d723b7e
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\fd\fd81bf611c2dd426bd13a74e5e6d02a8
+    fullPath: D:\E-ARTSUP\C#\Unity\PlatformerProduction-main\Library\Artifacts\fd\fd81bf611c2dd426bd13a74e5e6d02a8
+    projectPath: Library\Artifacts\fd\fd81bf611c2dd426bd13a74e5e6d02a8
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\CurrentLayout-default.dwlt
+    fullPath: D:\E-ARTSUP\C#\Unity\PlatformerProduction-main\Library\CurrentLayout-default.dwlt
+    projectPath: Library\CurrentLayout-default.dwlt
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
@@ -82,9 +382,15 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Library\SceneVisibilityState.asset
-    fullPath: D:\E-ARTSUP\C#\Unity\PlatformerProduction-main\Library\SceneVisibilityState.asset
-    projectPath: Library\SceneVisibilityState.asset
+  - path: Library\GridBrush\UnityEditor.Tilemaps.GridBrush.asset
+    fullPath: D:\E-ARTSUP\C#\Unity\PlatformerProduction-main\Library\GridBrush\UnityEditor.Tilemaps.GridBrush.asset
+    projectPath: Library\GridBrush\UnityEditor.Tilemaps.GridBrush.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\InspectorExpandedItems.asset
+    fullPath: D:\E-ARTSUP\C#\Unity\PlatformerProduction-main\Library\InspectorExpandedItems.asset
+    projectPath: Library\InspectorExpandedItems.asset
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -100,15 +406,21 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Library\ScriptAssemblies\BuiltinAssemblies.stamp
-    fullPath: D:\E-ARTSUP\C#\Unity\PlatformerProduction-main\Library\ScriptAssemblies\BuiltinAssemblies.stamp
-    projectPath: Library\ScriptAssemblies\BuiltinAssemblies.stamp
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
   - path: Library\SourceAssetDB
     fullPath: D:\E-ARTSUP\C#\Unity\PlatformerProduction-main\Library\SourceAssetDB
     projectPath: Library\SourceAssetDB
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\StateCache\Hierarchy\46b7a0-mainStage.json
+    fullPath: D:\E-ARTSUP\C#\Unity\PlatformerProduction-main\Library\StateCache\Hierarchy\46b7a0-mainStage.json
+    projectPath: Library\StateCache\Hierarchy\46b7a0-mainStage.json
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\StateCache\SceneView\d69a67-mainStage.json
+    fullPath: D:\E-ARTSUP\C#\Unity\PlatformerProduction-main\Library\StateCache\SceneView\d69a67-mainStage.json
+    projectPath: Library\StateCache\SceneView\d69a67-mainStage.json
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -124,21 +436,123 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
+  - path: ProjectSettings\TagManager.asset
+    fullPath: D:\E-ARTSUP\C#\Unity\PlatformerProduction-main\ProjectSettings\TagManager.asset
+    projectPath: ProjectSettings\TagManager.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Temp\__Backupscenes\0.backup
+    fullPath: D:\E-ARTSUP\C#\Unity\PlatformerProduction-main\Temp\__Backupscenes\0.backup
+    projectPath: Temp\__Backupscenes\0.backup
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
   - path: Temp\UnityLockfile
     fullPath: D:\E-ARTSUP\C#\Unity\PlatformerProduction-main\Temp\UnityLockfile
     projectPath: Temp\UnityLockfile
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-88e4acf2531af164bb2d530ff5653019
-    fullPath: D:\E-ARTSUP\C#\Unity\PlatformerProduction-main\Temp\UnityTempFile-88e4acf2531af164bb2d530ff5653019
-    projectPath: Temp\UnityTempFile-88e4acf2531af164bb2d530ff5653019
+  - path: Temp\UnityTempFile-208955420ffefff49a1ae9c10444ee05
+    fullPath: D:\E-ARTSUP\C#\Unity\PlatformerProduction-main\Temp\UnityTempFile-208955420ffefff49a1ae9c10444ee05
+    projectPath: Temp\UnityTempFile-208955420ffefff49a1ae9c10444ee05
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-989d76916eb17d042924b2503d3c8c6c
-    fullPath: D:\E-ARTSUP\C#\Unity\PlatformerProduction-main\Temp\UnityTempFile-989d76916eb17d042924b2503d3c8c6c
-    projectPath: Temp\UnityTempFile-989d76916eb17d042924b2503d3c8c6c
+  - path: Temp\UnityTempFile-5f2859889fa46664e96e4f77ae69fd72
+    fullPath: D:\E-ARTSUP\C#\Unity\PlatformerProduction-main\Temp\UnityTempFile-5f2859889fa46664e96e4f77ae69fd72
+    projectPath: Temp\UnityTempFile-5f2859889fa46664e96e4f77ae69fd72
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-6766fd7c23e427841a370f0539a877e5
+    fullPath: D:\E-ARTSUP\C#\Unity\PlatformerProduction-main\Temp\UnityTempFile-6766fd7c23e427841a370f0539a877e5
+    projectPath: Temp\UnityTempFile-6766fd7c23e427841a370f0539a877e5
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-69c5213dcfec6164082a6c6fc07799af
+    fullPath: D:\E-ARTSUP\C#\Unity\PlatformerProduction-main\Temp\UnityTempFile-69c5213dcfec6164082a6c6fc07799af
+    projectPath: Temp\UnityTempFile-69c5213dcfec6164082a6c6fc07799af
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-83708408d8520e04193921d8e88a4887
+    fullPath: D:\E-ARTSUP\C#\Unity\PlatformerProduction-main\Temp\UnityTempFile-83708408d8520e04193921d8e88a4887
+    projectPath: Temp\UnityTempFile-83708408d8520e04193921d8e88a4887
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-93ada6194a375da4a9ea61c3d5920b16
+    fullPath: D:\E-ARTSUP\C#\Unity\PlatformerProduction-main\Temp\UnityTempFile-93ada6194a375da4a9ea61c3d5920b16
+    projectPath: Temp\UnityTempFile-93ada6194a375da4a9ea61c3d5920b16
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-95a38bdc71be29c4eb52d1bef9aad4ec
+    fullPath: D:\E-ARTSUP\C#\Unity\PlatformerProduction-main\Temp\UnityTempFile-95a38bdc71be29c4eb52d1bef9aad4ec
+    projectPath: Temp\UnityTempFile-95a38bdc71be29c4eb52d1bef9aad4ec
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-ae78bde76f2331444b9855f486d3e79d
+    fullPath: D:\E-ARTSUP\C#\Unity\PlatformerProduction-main\Temp\UnityTempFile-ae78bde76f2331444b9855f486d3e79d
+    projectPath: Temp\UnityTempFile-ae78bde76f2331444b9855f486d3e79d
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-c79704e33bb3a3c418d53ca1a0d551b0
+    fullPath: D:\E-ARTSUP\C#\Unity\PlatformerProduction-main\Temp\UnityTempFile-c79704e33bb3a3c418d53ca1a0d551b0
+    projectPath: Temp\UnityTempFile-c79704e33bb3a3c418d53ca1a0d551b0
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-caeb6c29027ea074bac80e8294badbda
+    fullPath: D:\E-ARTSUP\C#\Unity\PlatformerProduction-main\Temp\UnityTempFile-caeb6c29027ea074bac80e8294badbda
+    projectPath: Temp\UnityTempFile-caeb6c29027ea074bac80e8294badbda
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-d5c23784fc7e83f43a6a5c2c345787f7
+    fullPath: D:\E-ARTSUP\C#\Unity\PlatformerProduction-main\Temp\UnityTempFile-d5c23784fc7e83f43a6a5c2c345787f7
+    projectPath: Temp\UnityTempFile-d5c23784fc7e83f43a6a5c2c345787f7
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-e028a07a7988b2b449b953a1ae667e4c
+    fullPath: D:\E-ARTSUP\C#\Unity\PlatformerProduction-main\Temp\UnityTempFile-e028a07a7988b2b449b953a1ae667e4c
+    projectPath: Temp\UnityTempFile-e028a07a7988b2b449b953a1ae667e4c
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-ed2e179691259c54cb4b5ef385214f91
+    fullPath: D:\E-ARTSUP\C#\Unity\PlatformerProduction-main\Temp\UnityTempFile-ed2e179691259c54cb4b5ef385214f91
+    projectPath: Temp\UnityTempFile-ed2e179691259c54cb4b5ef385214f91
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-f032a961642d27046b9b4fb083d3600b
+    fullPath: D:\E-ARTSUP\C#\Unity\PlatformerProduction-main\Temp\UnityTempFile-f032a961642d27046b9b4fb083d3600b
+    projectPath: Temp\UnityTempFile-f032a961642d27046b9b4fb083d3600b
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-f62d396f4a40ec443aaebf106cc7d22d
+    fullPath: D:\E-ARTSUP\C#\Unity\PlatformerProduction-main\Temp\UnityTempFile-f62d396f4a40ec443aaebf106cc7d22d
+    projectPath: Temp\UnityTempFile-f62d396f4a40ec443aaebf106cc7d22d
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-f929bb598be546c4c895aca129716fbb
+    fullPath: D:\E-ARTSUP\C#\Unity\PlatformerProduction-main\Temp\UnityTempFile-f929bb598be546c4c895aca129716fbb
+    projectPath: Temp\UnityTempFile-f929bb598be546c4c895aca129716fbb
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-ffc0fe0d6d45abe4eb5a08479fd40300
+    fullPath: D:\E-ARTSUP\C#\Unity\PlatformerProduction-main\Temp\UnityTempFile-ffc0fe0d6d45abe4eb5a08479fd40300
+    projectPath: Temp\UnityTempFile-ffc0fe0d6d45abe4eb5a08479fd40300
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
