@@ -13,31 +13,25 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 2
-  lastUpdatedAtString: 2021-02-25T17:22:02.823+03:00
-  initializedAtString: 2021-02-25T17:22:02.809+03:00
+  lastUpdatedAtString: 2021-03-01T16:56:11.441+03:00
+  initializedAtString: 2021-03-01T15:18:02.343+03:00
   localBranches:
-  - name: CameraModify
-    tracking: 
-  - name: Grid
+  - name: Health
     tracking: 
   - name: main
     tracking: origin/main
+  - name: main_Igor
+    tracking: 
   - name: master
     tracking: origin/master
-  - name: Structure
-    tracking: upstream/Structure
-  - name: feature/physics
-    tracking: origin/feature/physics
   remoteBranches:
+  - name: origin/Ennemy_Code
+    tracking: '[None]'
   - name: origin/main
     tracking: '[None]'
   - name: origin/master
     tracking: '[None]'
-  - name: origin/feature/physics
-    tracking: '[None]'
   - name: upstream/main
-    tracking: '[None]'
-  - name: upstream/Structure
     tracking: '[None]'
   remotes:
   - name: origin
@@ -56,19 +50,12 @@ MonoBehaviour:
     token: 
   localConfigBranches:
     keys:
-    - CameraModify
-    - Grid
+    - Health
     - main
+    - main_Igor
     - master
-    - Structure
-    - feature/physics
     values:
-    - name: CameraModify
-      remote:
-        name: 
-        url: 
-      trackingBranch: 
-    - name: Grid
+    - name: Health
       remote:
         name: 
         url: 
@@ -78,35 +65,34 @@ MonoBehaviour:
         name: origin
         url: https://github.com/silencepcm/PlatformerProduction.git
       trackingBranch: main
+    - name: main_Igor
+      remote:
+        name: 
+        url: 
+      trackingBranch: 
     - name: master
       remote:
         name: origin
         url: https://github.com/silencepcm/PlatformerProduction.git
       trackingBranch: master
-    - name: Structure
-      remote:
-        name: upstream
-        url: https://github.com/SethDrakor/PlatformerProduction.git
-      trackingBranch: Structure
-    - name: feature/physics
-      remote:
-        name: origin
-        url: https://github.com/silencepcm/PlatformerProduction.git
-      trackingBranch: feature/physics
   remoteConfigBranches:
     keys:
     - origin
     - upstream
     subKeys:
     - Values:
+      - Ennemy_Code
       - main
       - master
-      - feature/physics
     - Values:
       - main
-      - Structure
     subKeyValues:
     - Values:
+      - name: Ennemy_Code
+        remote:
+          name: origin
+          url: https://github.com/silencepcm/PlatformerProduction.git
+        trackingBranch: 
       - name: main
         remote:
           name: origin
@@ -117,18 +103,8 @@ MonoBehaviour:
           name: origin
           url: https://github.com/silencepcm/PlatformerProduction.git
         trackingBranch: 
-      - name: feature/physics
-        remote:
-          name: origin
-          url: https://github.com/silencepcm/PlatformerProduction.git
-        trackingBranch: 
     - Values:
       - name: main
-        remote:
-          name: upstream
-          url: https://github.com/SethDrakor/PlatformerProduction.git
-        trackingBranch: 
-      - name: Structure
         remote:
           name: upstream
           url: https://github.com/SethDrakor/PlatformerProduction.git
