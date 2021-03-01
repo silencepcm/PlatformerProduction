@@ -135,7 +135,6 @@ GameObject:
   - component: {fileID: 2813099}
   - component: {fileID: 2813098}
   - component: {fileID: 2813103}
-  - component: {fileID: 2813097}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -143,6 +142,7 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+<<<<<<< HEAD:Assets/Scenes/RunLevel1.unity
 --- !u!114 &2813097
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -156,6 +156,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hp: 500
+=======
+>>>>>>> parent of 46117d8 (Enemy_Scripts):Assets/Scenes/SampleScene.unity
 --- !u!114 &2813098
 MonoBehaviour:
   m_ObjectHideFlags: 0

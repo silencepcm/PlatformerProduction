@@ -63,19 +63,33 @@ public class PlayerController : MonoBehaviour
 
         if (Input.GetKey(KeyCode.A))
         {
+<<<<<<< HEAD:Assets/Scripts/PersonnagesScripts/PlayerScripts/PlayerController.cs
             rb2d.velocity = new Vector2(-speed.x, rb2d.velocity.y);
           //  animator.SetFloat("PlayerSpeed", runSpeed);
+=======
+            rb2d.velocity = new Vector2(-runSpeed, rb2d.velocity.y);
+            animator.SetFloat("PlayerSpeed", runSpeed);
+>>>>>>> parent of 46117d8 (Enemy_Scripts):Assets/Scripts/PlayerController.cs
         }
         else
         if (Input.GetKey(KeyCode.D))
         {
+<<<<<<< HEAD:Assets/Scripts/PersonnagesScripts/PlayerScripts/PlayerController.cs
             rb2d.velocity = new Vector2(+speed.x, rb2d.velocity.y);
            // animator.SetFloat("PlayerSpeed", runSpeed);
+=======
+            rb2d.velocity = new Vector2(+runSpeed, rb2d.velocity.y);
+            animator.SetFloat("PlayerSpeed", runSpeed);
+>>>>>>> parent of 46117d8 (Enemy_Scripts):Assets/Scripts/PlayerController.cs
         }
         else
         {
             rb2d.velocity = new Vector2(0, rb2d.velocity.y);
+<<<<<<< HEAD:Assets/Scripts/PersonnagesScripts/PlayerScripts/PlayerController.cs
           //  animator.SetFloat("PlayerSpeed", 0);
+=======
+            animator.SetFloat("PlayerSpeed", 0);
+>>>>>>> parent of 46117d8 (Enemy_Scripts):Assets/Scripts/PlayerController.cs
         }
     }
 }
