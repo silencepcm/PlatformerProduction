@@ -10,7 +10,7 @@ public class PlayerController : MonoBehaviour
     private Rigidbody2D rb2d;
     private BoxCollider2D bc2D;
     public GameObject thePrefab;
-    public Animator animator;
+    //public Animator animator;
     // Start is called before the first frame update
     void Start()
     {
@@ -49,18 +49,18 @@ public class PlayerController : MonoBehaviour
         if (Input.GetKey(KeyCode.A))
         {
             rb2d.velocity = new Vector2(-runSpeed, rb2d.velocity.y);
-            animator.SetFloat("PlayerSpeed", runSpeed);
+            //animator.SetFloat("PlayerSpeed", runSpeed);
         }
         else
         if (Input.GetKey(KeyCode.D))
         {
             rb2d.velocity = new Vector2(+runSpeed, rb2d.velocity.y);
-            animator.SetFloat("PlayerSpeed", runSpeed);
+            //animator.SetFloat("PlayerSpeed", runSpeed);
         }
         else
         {
             rb2d.velocity = new Vector2(0, rb2d.velocity.y);
-            animator.SetFloat("PlayerSpeed", 0);
+            //animator.SetFloat("PlayerSpeed", 0);
         }
     }
 }
